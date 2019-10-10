@@ -1,0 +1,15 @@
+{
+    "products": [{
+        "id": 1,
+        "name": "Fabio",
+        "description":"Teste",
+        "startDate": "10-12-2019",
+        "endDate": "11-12-2019"
+    },{
+        "id": 2,
+        "name": "Juliana",
+        "description":"Teste2",
+        "startDate": "10-12-2019",
+        "endDate": "2019-12-11"
+    }]
+}

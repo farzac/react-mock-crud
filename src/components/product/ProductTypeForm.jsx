@@ -30,8 +30,7 @@ export default props =>
                             autoComplete='off'
                             value={props.startDate}
                             onChange={e => props.updateField(e)}
-                            onKeyPress={props.handleEnterPress}
-                            placeholder='Digite o nome...' />
+                            onKeyPress={props.handleEnterPress}/>
 
                         <input type="date"
                             name="endDate"
@@ -40,8 +39,7 @@ export default props =>
                             autoComplete='off'
                             value={props.endDate}
                             onChange={e => props.updateField(e)}
-                            onKeyPress={props.handleEnterPress}
-                            placeholder='Digite o nome...' />
+                            onKeyPress={props.handleEnterPress}/>
                     </div>
                 </div>
             </div>

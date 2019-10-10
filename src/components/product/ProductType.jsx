@@ -12,15 +12,15 @@ const headerProps = {
     subtitle: 'Cadastro de Tipo de Produto: Incluir, Listar, Alterar e Excluir'
 }
 
-const baseUrl = 'http://localhost:3001/productTypes'
+const baseUrl = 'http://localhost:3001/products'
 
 const initialState = {
     productType: {
+        id: '',
         name: '',
-        starteDate: Date,
-        endDate: Date,
         description: '',
-        status: ''
+        startDate: Date,
+        endDate: Date,
     },
     list: []
 }
