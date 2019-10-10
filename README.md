@@ -1,2 +1,1 @@
-# react-projectType
-react-projectType
+# react-mock-crud
